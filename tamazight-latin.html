@@ -2,133 +2,179 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamazight - Latin</title>
-    <link href="./styles/bootstrap.min.css" rel="stylesheet">
-    <link href="./styles/anasiw.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamazight - Latin</title>
+        <link href="./styles/bootstrap.min.css" rel="stylesheet">
+        <link href="./styles/anasiw.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <header class="">
+        <div class="container">
+                <header>
+                        <nav class="navbar navbar-light bg-light">
+                                <a class="navbar-brand" href="#">
+                                        <img src="./images/logo.png" alt="Logo" width="50" height="50" />
+                                        Anasiw
+                                </a>
+                        </nav>
+                </header>
 
-        </header>
-        <main class="container">
-            <textarea id="ansa" rows="20" placeholder="Uru ayenna trid..." autofocus></textarea>
-            <div class="keyboard">
-                <fieldset>
-                    <legend>Amaḍal</legend>
-                    <ul class="amadal">
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Č';">Č</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ḍ'">Ḍ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ǧ'">Ǧ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ḥ'">Ḥ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ṛ'">Ṛ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ṣ'">Ṣ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ṭ'">Ṭ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ẓ'">Ẓ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ɣ'">Ɣ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').focus();document.getElementById('ansa').textContent+='Ɛ'">Ɛ</button>
-                        </li>
-                    </ul>
-                    <ul class="amadal">
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='č'">č</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ḍ'">ḍ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ǧ'">ǧ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ḥ'">ḥ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ṛ'">ṛ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ṣ'">ṣ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ṭ'">ṭ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ẓ'">ẓ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ɣ'">ɣ</button>
-                        </li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ɛ'">ɛ</button>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Kabyle</legend>
-                    <ul class="kabyle">
-                        <li>
-                            <button type="button" onclick="document.getElementById('ansa').textContent+='Ţ'">Ţ</button>
-                        </li>
-                        <li>
-                            <button type="button" onclick="document.getElementById('ansa').textContent+='ʷ'">ʷ</button>
-                        </li>
-                    </ul>
-                    <ul class="kabyle">
-                        <li>
-                            <button type="button" onclick="document.getElementById('ansa').textContent+='ţ'">ţ</button>
-                        </li>
-                        <li>
-                            <button type="button" onclick="document.getElementById('ansa').textContent+='ᵒ'">ᵒ</button>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Rifain</legend>
-                    <ul class="rifain">
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='Ḇ'">Ḇ</button></li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='Ḏ'">Ḏ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='Ḏ̣'">Ḏ̣</button></li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='G̱'">G̱</button></li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='Ḵ'">Ḵ</button></li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='Ṯ'">Ṯ</button>
-                        </li>
-                    </ul>
-                    <ul class="rifain">
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='ḇ'">ḇ</button></li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ḏ'">ḏ</button>
-                        </li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='ḏ̣'">ḏ̣</button></li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='g̱'">g̱</button></li>
-                        <li><button type="button"
-                                onclick="document.getElementById('ansa').textContent+='ḵ'">ḵ</button></li>
-                        <li><button type="button" onclick="document.getElementById('ansa').textContent+='ṯ'">ṯ</button>
-                        </li>
-                    </ul>
-                </fieldset>
-            </div>
-        </main>
-    </div>
-    <script src="./scripts/bootstrap.bundle.min.js"></script>
-    <script src="./scripts/anasiw.js"></script>
+                <main class="container">
+                        <textarea id="tirra" rows="15" placeholder="Uru ayenna trid..." autofocus></textarea>
+                        <div class="container text-center">
+                                <div class="row align-items-start">
+                                        <div class="col-3 d-none d-lg-block">
+                                        </div>
+                                        <div class="col-6">
+                                                <div class="keyboard">
+                                                        <fieldset class="amadal">
+                                                                <legend>Amaḍal</legend>
+                                                                <ul class="amadal">
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Č')">Č</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ḍ')">Ḍ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ǧ')">Ǧ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ḥ')">Ḥ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ṛ')">Ṛ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ṣ')">Ṣ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ṭ')">Ṭ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ẓ')">Ẓ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ɣ')">Ɣ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="focusTextarea();appendChar('Ɛ')">Ɛ</button>
+                                                                        </li>
+                                                                </ul>
+                                                                <ul class="amadal">
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('č')">č</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḍ')">ḍ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ǧ')">ǧ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḥ')">ḥ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ṛ')">ṛ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ṣ')">ṣ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ṭ')">ṭ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ẓ')">ẓ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ɣ')">ɣ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ɛ')">ɛ</button>
+                                                                        </li>
+                                                                </ul>
+                                                        </fieldset>
+                                                        <fieldset class="kabyle">
+                                                                <legend>Kabyle</legend>
+                                                                <ul class="kabyle">
+                                                                        <li>
+                                                                                <button type="button"
+                                                                                        onclick="appendChar('Ţ')">Ţ</button>
+                                                                        </li>
+                                                                        <li>
+                                                                                <button type="button"
+                                                                                        onclick="appendChar('ʷ')">ʷ</button>
+                                                                        </li>
+                                                                </ul>
+                                                                <ul class="kabyle">
+                                                                        <li>
+                                                                                <button type="button"
+                                                                                        onclick="appendChar('ţ')">ţ</button>
+                                                                        </li>
+                                                                        <li>
+                                                                                <button type="button"
+                                                                                        onclick="appendChar('ᵒ')">ᵒ</button>
+                                                                        </li>
+                                                                </ul>
+                                                        </fieldset>
+                                                        <fieldset class="rifain">
+                                                                <legend>Rifain</legend>
+                                                                <ul class="rifain">
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('Ḇ')">Ḇ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('Ḏ')">Ḏ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('Ḏ̣')">Ḏ̣</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('G̱')">G̱</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('Ḵ')">Ḵ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('Ṯ')">Ṯ</button>
+                                                                        </li>
+                                                                </ul>
+                                                                <ul class="rifain">
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḇ')">ḇ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḏ')">ḏ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḏ̣')">ḏ̣</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('g̱')">g̱</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ḵ')">ḵ</button>
+                                                                        </li>
+                                                                        <li><button type="button"
+                                                                                        onclick="appendChar('ṯ')">ṯ</button>
+                                                                        </li>
+                                                                </ul>
+                                                        </fieldset>
+                                                </div>
+                                        </div>
+                                        <div class="col-3 d-none d-lg-block">
+                                        </div>
+                                </div>
+                        </div>
+
+                </main>
+                <footer>
+
+                </footer>
+        </div>
+        <script src="./scripts/bootstrap.bundle.min.js"></script>
+        <script src="./scripts/anasiw.js"></script>
 </body>
 
 </html>

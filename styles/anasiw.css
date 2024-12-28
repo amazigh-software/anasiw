@@ -1,9 +1,10 @@
 textarea {
     width: 100%;
-    /* Set width to 100% */
-    box-sizing: border-box;
-    /* Include padding and border in the width calculation */
     border-radius: 10px;
+    color: #0000FF;
+    font-family: Noto Sans, Arial;
+    font-size: 1em;
+    padding: 0.3em;
 }
 
 .keyboard {
@@ -14,10 +15,8 @@ textarea {
 
 fieldset {
     border: 1px solid #ddd !important;
-    margin: 10px;
     padding: 10px;
-    position: relative;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #eeeeee;
     padding-left: 10px !important;
 }
@@ -25,10 +24,23 @@ fieldset {
 legend {
     font-size: 13px;
     font-weight: bold;
-    margin-bottom: 10px;
+    border-radius: 5px;
     width: 60px;
     padding: 5px;
     background-color: #ffffff;
+}
+
+fieldset.amadal {
+    width: 450px;
+}
+
+fieldset.kabyle {
+    width: 110px;
+    float: left;
+}
+
+fieldset.rifain {
+    width: 280px;
 }
 
 ul {

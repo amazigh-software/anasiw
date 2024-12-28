@@ -1,39 +1,47 @@
 function directMode() {
-    let textarea = document.getElementById("ansa").value;
+    let textarea = document.getElementById("tirra").value;
     let lastchar = textarea.charAt(textarea.length - 1);
     let lastsecondchar = textarea.charAt(textarea.length - 2);
     if (lastchar == '=') {
         switch (lastsecondchar) {
             case 'c':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'č';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'č';
                 break;
             case 'd':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ḍ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ḍ';
                 break;
             case 'g':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ǧ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ǧ';
                 break;
             case 'h':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ḥ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ḥ';
                 break;
             case 'r':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ṛ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ṛ';
                 break;
             case 's':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ṣ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ṣ';
                 break;
             case 't':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ṭ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ṭ';
                 break;
             case 'z':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ẓ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ẓ';
                 break;
             case 'e':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ɛ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ɛ';
                 break;
             case 'y':
-                document.getElementById("ansa").value = textarea.substring(0, textarea.length - 2) + 'ɣ';
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ɣ';
                 break;
         }
     }
+}
+
+function focusTextarea() {
+    document.getElementById('tirra').focus();
+}
+
+function appendChar(char) {
+    document.getElementById("tirra").value += char;
 }
