@@ -21,7 +21,8 @@
                 </header>
 
                 <main class="container">
-                        <textarea id="tirra" rows="15" placeholder="Uru ayenna trid..." autofocus></textarea>
+                        <textarea id="tirra" rows="15" onkeyup="directMode()" placeholder="Uru ayenna trid..."
+                                autofocus></textarea>
                         <div class="container text-center">
                                 <div class="row align-items-start">
                                         <div class="col-3 d-none d-lg-block">
@@ -32,66 +33,66 @@
                                                                 <legend>Amaḍal</legend>
                                                                 <ul class="amadal">
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Č')">Č</button>
+                                                                                        onclick="appendChar('Č');focusTextarea();">Č</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ḍ')">Ḍ</button>
+                                                                                        onclick="appendChar('Ḍ');focusTextarea();">Ḍ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ǧ')">Ǧ</button>
+                                                                                        onclick="appendChar('Ǧ');focusTextarea();">Ǧ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ḥ')">Ḥ</button>
+                                                                                        onclick="appendChar('Ḥ');focusTextarea();">Ḥ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ṛ')">Ṛ</button>
+                                                                                        onclick="appendChar('Ṛ');focusTextarea();">Ṛ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ṣ')">Ṣ</button>
+                                                                                        onclick="appendChar('Ṣ');focusTextarea();">Ṣ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ṭ')">Ṭ</button>
+                                                                                        onclick="appendChar('Ṭ');focusTextarea();">Ṭ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ẓ')">Ẓ</button>
+                                                                                        onclick="appendChar('Ẓ');focusTextarea();">Ẓ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ɣ')">Ɣ</button>
+                                                                                        onclick="appendChar('Ɣ');focusTextarea();">Ɣ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="focusTextarea();appendChar('Ɛ')">Ɛ</button>
+                                                                                        onclick="appendChar('Ɛ');focusTextarea();">Ɛ</button>
                                                                         </li>
                                                                 </ul>
                                                                 <ul class="amadal">
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('č')">č</button>
+                                                                                        onclick="appendChar('č');focusTextarea();">č</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḍ')">ḍ</button>
+                                                                                        onclick="appendChar('ḍ');focusTextarea();">ḍ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ǧ')">ǧ</button>
+                                                                                        onclick="appendChar('ǧ');focusTextarea();">ǧ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḥ')">ḥ</button>
+                                                                                        onclick="appendChar('ḥ');focusTextarea();">ḥ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ṛ')">ṛ</button>
+                                                                                        onclick="appendChar('ṛ');focusTextarea();">ṛ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ṣ')">ṣ</button>
+                                                                                        onclick="appendChar('ṣ');focusTextarea();">ṣ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ṭ')">ṭ</button>
+                                                                                        onclick="appendChar('ṭ');focusTextarea();">ṭ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ẓ')">ẓ</button>
+                                                                                        onclick="appendChar('ẓ');focusTextarea();">ẓ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ɣ')">ɣ</button>
+                                                                                        onclick="appendChar('ɣ');focusTextarea();">ɣ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ɛ')">ɛ</button>
+                                                                                        onclick="appendChar('ɛ');focusTextarea();">ɛ</button>
                                                                         </li>
                                                                 </ul>
                                                         </fieldset>
@@ -100,21 +101,21 @@
                                                                 <ul class="kabyle">
                                                                         <li>
                                                                                 <button type="button"
-                                                                                        onclick="appendChar('Ţ')">Ţ</button>
+                                                                                        onclick="appendChar('Ţ');focusTextarea();">Ţ</button>
                                                                         </li>
                                                                         <li>
                                                                                 <button type="button"
-                                                                                        onclick="appendChar('ʷ')">ʷ</button>
+                                                                                        onclick="appendChar('ʷ');focusTextarea();">ʷ</button>
                                                                         </li>
                                                                 </ul>
                                                                 <ul class="kabyle">
                                                                         <li>
                                                                                 <button type="button"
-                                                                                        onclick="appendChar('ţ')">ţ</button>
+                                                                                        onclick="appendChar('ţ');focusTextarea();">ţ</button>
                                                                         </li>
                                                                         <li>
                                                                                 <button type="button"
-                                                                                        onclick="appendChar('ᵒ')">ᵒ</button>
+                                                                                        onclick="appendChar('ᵒ');focusTextarea();">ᵒ</button>
                                                                         </li>
                                                                 </ul>
                                                         </fieldset>
@@ -122,42 +123,42 @@
                                                                 <legend>Rifain</legend>
                                                                 <ul class="rifain">
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('Ḇ')">Ḇ</button>
+                                                                                        onclick="appendChar('Ḇ');focusTextarea();">Ḇ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('Ḏ')">Ḏ</button>
+                                                                                        onclick="appendChar('Ḏ');focusTextarea();">Ḏ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('Ḏ̣')">Ḏ̣</button>
+                                                                                        onclick="appendChar('Ḏ̣');focusTextarea();">Ḏ̣</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('G̱')">G̱</button>
+                                                                                        onclick="appendChar('G̱');focusTextarea();">G̱</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('Ḵ')">Ḵ</button>
+                                                                                        onclick="appendChar('Ḵ');focusTextarea();">Ḵ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('Ṯ')">Ṯ</button>
+                                                                                        onclick="appendChar('Ṯ');focusTextarea();">Ṯ</button>
                                                                         </li>
                                                                 </ul>
                                                                 <ul class="rifain">
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḇ')">ḇ</button>
+                                                                                        onclick="appendChar('ḇ');focusTextarea();">ḇ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḏ')">ḏ</button>
+                                                                                        onclick="appendChar('ḏ');focusTextarea();">ḏ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḏ̣')">ḏ̣</button>
+                                                                                        onclick="appendChar('ḏ̣');focusTextarea();">ḏ̣</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('g̱')">g̱</button>
+                                                                                        onclick="appendChar('g̱');focusTextarea();">g̱</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ḵ')">ḵ</button>
+                                                                                        onclick="appendChar('ḵ');focusTextarea();">ḵ</button>
                                                                         </li>
                                                                         <li><button type="button"
-                                                                                        onclick="appendChar('ṯ')">ṯ</button>
+                                                                                        onclick="appendChar('ṯ');focusTextarea();">ṯ</button>
                                                                         </li>
                                                                 </ul>
                                                         </fieldset>
