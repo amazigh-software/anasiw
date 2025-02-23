@@ -34,6 +34,12 @@ function directMode() {
             case 'y':
                 document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'ɣ';
                 break;
+            case 'E':
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'Σ';
+                break;
+            case 'Y':
+                document.getElementById("tirra").value = textarea.substring(0, textarea.length - 2) + 'Γ';
+                break;
         }
     }
 }
